@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,700&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,700&family=Press+Start+2P&display=swap");
+body {
+  background-color: #171D1C;
+  color: #EFE9F4;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  color: #E9D985;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 3em;
+  text-shadow: 2px 4px #E5446D;
+  text-align: center;
+  line-height: 4rem;
+}
+
+h2 {
+  font-family: "Press Start 2P", cursive;
+  color: #8783D1;
+  text-shadow: 2px 4px #EFE9F4;
+  font-size: 2em;
+  line-height: 3rem;
+}
+
+h3 {
+  font-family: "Press Start 2P", cursive;
+  color: #E9D985;
+  text-shadow: 2px 4px #E5446D;
+  font-size: 1.5em;
+  line-height: 2.5rem;
+  padding-top: 1rem;
+}
+
+p {
+  line-height: 1.8rem;
+}
+
+a {
+  color: #E9D985;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 0.5rem;
+}
+
+.intro {
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
+  border: 0.5rem solid #EFE9F4;
+  border-radius: 5rem;
+  box-shadow: -0.125 0 0 0 #EFE9F4;
+}
+
+.main {
+  padding: 1rem 3rem;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=style.css.map */
