@@ -45,6 +45,9 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+a:hover {
+    text-shadow: 0 0 10px $white, 0 0 20px $white, 0 0 30px $white, 0 0 40px #00e6e6, 0 0 70px $teal, 0 0 80px $teal, 0 0 100px $teal;
+}
 
 li {
     list-style: none;
