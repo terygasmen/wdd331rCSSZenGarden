@@ -1,43 +1,43 @@
 @import 'variables';
 
 body {
-    background-color: $black;
     color: $white;
     font-family: $main_font;
-    font-size: 1rem;
-    margin: 1rem;
+    margin: 0;
 }
 
 h1 {
     font-family: $heading_font;
-    color: $yellow;
+    color: $teal;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 3em;
+    font-size: 2rem;
     text-shadow: 2px 4px $pink;
     text-align: center;
-    line-height: 4rem;
+    line-height: 3rem;
+    // text-shadow: 0 0 3px $white, 0 0 5px $white, 0 0 10px $white, 0 0 30px $yellow, 0 0 50px $yellow, 0 0 50px $yellow, 0 0 60px $yellow;
 }
 
 h2 {
     font-family: $heading_font;
     color: $purple;
-    text-shadow: 2px 4px $white;
-    font-size: 2em;
-    line-height: 3rem;
+    text-shadow: 2px 2px $white;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
 }
 
 h3 {
     font-family: $heading_font;
     color: $yellow;
-    text-shadow: 2px 4px $pink;
-    font-size: 1.5em;
-    line-height: 2.5rem;
-    padding-top: 1rem;
+    text-shadow: 1px 3px $pink;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 1rem 0.5rem;
 }
 
 p {
-    line-height: 1.8rem;
+    line-height: 1.3rem;
+    font-size: 1rem;
 }
 
 a {
@@ -46,7 +46,9 @@ a {
     cursor: pointer;
 }
 a:hover {
-    text-shadow: 0 0 10px $white, 0 0 20px $white, 0 0 30px $white, 0 0 40px #00e6e6, 0 0 70px $teal, 0 0 80px $teal, 0 0 100px $teal;
+    padding: 0.2rem;
+    border: 2px dotted $yellow;
+    line-height: 2rem;
 }
 
 li {
