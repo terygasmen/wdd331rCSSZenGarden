@@ -2,16 +2,17 @@
 
 // INTRO
 
-.preamble {
+.preamble, aside .wrapper {
     border: 2px dotted $white;
     padding: 0.8rem;
-    margin: 0.8rem;
 }
 .intro h1 {
     padding-bottom: 2rem;
     margin-bottom: 2rem;
     border-bottom: 5px dotted $white;
 }
+
+// ASIDE
 
 // MAIN SECTIONS
 .main div, .wrapper div ul {

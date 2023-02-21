@@ -5,6 +5,7 @@ body {
   color: #EFE9F4;
   font-family: "IBM Plex Mono", monospace;
   margin: 0;
+  background: radial-gradient(circle, #610e67, #17153b);
 }
 
 h1 {
@@ -57,10 +58,9 @@ li {
   padding-bottom: 0.5rem;
 }
 
-.preamble {
+.preamble, aside .wrapper {
   border: 2px dotted #EFE9F4;
   padding: 0.8rem;
-  margin: 0.8rem;
 }
 
 .intro h1 {
@@ -110,10 +110,6 @@ footer a {
     flex-direction: row;
   }
 }
-body {
-  background: radial-gradient(circle, #610e67, #17153b);
-}
-
 .intro {
   padding: 2rem;
   display: flex;
@@ -126,12 +122,19 @@ body {
   text-align: justify;
 }
 
-.main, aside {
-  padding: 2rem;
+.main {
   background-color: #171D1C;
 }
 
-@media only screen and (min-width: 800px) {
+aside {
+  margin: 2.8rem;
+}
+
+.main {
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
   body {
     padding: 1rem 5rem;
   }
@@ -142,6 +145,9 @@ body {
   .intro {
     grid-column: 1/3;
     margin: 2rem 10rem;
+  }
+  aside {
+    margin: 0 0 0 2rem;
   }
   .main {
     grid-column: 1/2;

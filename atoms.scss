@@ -4,6 +4,7 @@ body {
     color: $white;
     font-family: $main_font;
     margin: 0;
+    background: radial-gradient(circle, $darkpink, $darkpurple);
 }
 
 h1 {
@@ -15,7 +16,6 @@ h1 {
     text-shadow: 2px 4px $pink;
     text-align: center;
     line-height: 3rem;
-    // text-shadow: 0 0 3px $white, 0 0 5px $white, 0 0 10px $white, 0 0 30px $yellow, 0 0 50px $yellow, 0 0 50px $yellow, 0 0 60px $yellow;
 }
 
 h2 {
